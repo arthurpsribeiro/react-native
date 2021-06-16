@@ -15,11 +15,13 @@ import Header from "./src/components/Header";
 import MinMax from "./src/components/MinMax";
 import ButtonExp from "./src/components/ButtonExp";
 import Login from "./src/screens/Login";
+import Contador from "./src/components/Contador";
 
 export default () => {
 	return (
 		<SafeAreaView>
-			<Login />
+			{/* <Login /> */}
+			<Contador inicial={0} />
 			{/* <Header /> */}
 			{/* <ButtonExp /> */}
 			{/* <MinMax min="2" max="10" /> Strings */}
