@@ -13,13 +13,17 @@ import {
 // import TituloPrincipal from "./src/components/TituloPrincipal";
 import Header from "./src/components/Header";
 import MinMax from "./src/components/MinMax";
+import ButtonExp from "./src/components/ButtonExp";
+import Login from "./src/screens/Login";
 
 export default () => {
 	return (
 		<SafeAreaView>
-			<Header />
-			<MinMax min="2" max="10" /> {/*Strings*/}
-			<MinMax min={5} max={15} /> {/*Numeros*/}
+			<Login />
+			{/* <Header /> */}
+			{/* <ButtonExp /> */}
+			{/* <MinMax min="2" max="10" /> Strings */}
+			{/* <MinMax min={5} max={15} /> Numeros */}
 			{/* <TituloPrincipal title="Home" subtitle="Seja Bem Vindo" />
 			<Btn titulo="Add to Cart" back="#29e45e" />
 			<Btn titulo="Comprar" back="#29e45e" />
