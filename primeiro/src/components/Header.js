@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 		padding: 20,
 		justifyContent: "space-between",
 		borderBottomWidth: 5,
-		borderBottomStyle: "solid",
+		// borderBottomStyle: "solid",
 		borderBottomColor: "#000",
 	},
 });

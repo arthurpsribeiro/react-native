@@ -1,8 +1,13 @@
 import React from "react";
 import { Text, StyleSheet } from "react-native";
 
-export default () => {
-	return <Text style={styles.tituloPrincipal}>Título Principal</Text>;
+export default (props) => {
+	return (
+		<>
+			<Text style={styles.tituloPrincipal}>{props.title}</Text>
+			<Text style={styles.subtitle}>{props.subtitle}</Text>
+		</>
+	);
 };
 
 const styles = StyleSheet.create({
@@ -10,7 +15,12 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		fontSize: 40,
 		color: "#fff",
-		backgroundColor: "#b74",
+		backgroundColor: "#000",
+		textAlign: "center",
+	},
+	subtitle: {
+		fontSize: 20,
+		color: "#000",
 		textAlign: "center",
 	},
 });

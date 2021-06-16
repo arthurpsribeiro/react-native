@@ -7,21 +7,27 @@ import {
 	Button,
 	TouchableOpacity,
 } from "react-native";
-import Primeiro from "./src/components/Primeiro";
-import CompPadrao, { Component1, Component2 } from "./src/components/Multi";
-import BtnComprar from "./src/components/BtnComprar";
-import TituloPrincipal from "./src/components/TituloPrincipal";
+// import Primeiro from "./src/components/Primeiro";
+// import CompPadrao, { Component1, Component2 } from "./src/components/Multi";
+// import Btn from "./src/components/Btn";
+// import TituloPrincipal from "./src/components/TituloPrincipal";
 import Header from "./src/components/Header";
+import MinMax from "./src/components/MinMax";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<TituloPrincipal />
-			<BtnComprar />
+			<MinMax min="2" max="10" /> {/*Strings*/}
+			<MinMax min={5} max={15} /> {/*Numeros*/}
+			{/* <TituloPrincipal title="Home" subtitle="Seja Bem Vindo" />
+			<Btn titulo="Add to Cart" back="#29e45e" />
+			<Btn titulo="Comprar" back="#29e45e" />
+			<Btn titulo="Finalizar Compra" back="#29e45e" />
+			<Btn titulo="Cadastrar" back="#cecece" />
 			<View style={style.App}>
 				<Text style={[style.txtG, style.txtBranco]}>Iniciando com estilos</Text>
-			</View>
+			</View> */}
 		</SafeAreaView>
 	);
 	/*<Component2/>
