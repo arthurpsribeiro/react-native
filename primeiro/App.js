@@ -12,21 +12,27 @@ import {
 // import Btn from "./src/components/Btn";
 // import TituloPrincipal from "./src/components/TituloPrincipal";
 import Header from "./src/components/Header";
-import MinMax from "./src/components/MinMax";
-import ButtonExp from "./src/components/ButtonExp";
-import Login from "./src/screens/Login";
-import Contador from "./src/components/Contador";
+// import MinMax from "./src/components/MinMax";
+// import ButtonExp from "./src/components/ButtonExp";
+// import Login from "./src/screens/Login";
+// import Contador from "./src/components/Contador";
+// import Pai from "./src/components/direta/Pai";
+import GridProdutos from "./src/components/GridProdutos/";
 
 export default () => {
 	return (
 		<SafeAreaView>
-			{/* <Login /> */}
+			<Header />
+			<GridProdutos />
+
+			{/* <Login />
+			<Pai />
 			<Contador inicial={0} />
-			{/* <Header /> */}
-			{/* <ButtonExp /> */}
-			{/* <MinMax min="2" max="10" /> Strings */}
-			{/* <MinMax min={5} max={15} /> Numeros */}
-			{/* <TituloPrincipal title="Home" subtitle="Seja Bem Vindo" />
+			<Header />
+			<ButtonExp />
+			<MinMax min="2" max="10" /> Strings
+			<MinMax min={5} max={15} /> Numeros
+			<TituloPrincipal title="Home" subtitle="Seja Bem Vindo" />
 			<Btn titulo="Add to Cart" back="#29e45e" />
 			<Btn titulo="Comprar" back="#29e45e" />
 			<Btn titulo="Finalizar Compra" back="#29e45e" />
@@ -36,8 +42,6 @@ export default () => {
 			</View> */}
 		</SafeAreaView>
 	);
-	/*<Component2/>
-  <Primeiro/>*/
 };
 
 const style = StyleSheet.create({

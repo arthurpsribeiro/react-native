@@ -1,11 +1,13 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View } from "react-native";
 
 export default (props) => {
 	return (
 		<>
-			<Text style={styles.tituloPrincipal}>{props.title}</Text>
-			<Text style={styles.subtitle}>{props.subtitle}</Text>
+			<View style={styles.container}>
+				<Text style={styles.tituloPrincipal}>{props.title}</Text>
+				<Text style={styles.subtitle}>{props.subtitle}</Text>
+			</View>
 		</>
 	);
 };
@@ -13,14 +15,15 @@ export default (props) => {
 const styles = StyleSheet.create({
 	tituloPrincipal: {
 		fontWeight: "bold",
-		fontSize: 40,
-		color: "#fff",
-		backgroundColor: "#000",
+		fontSize: 25,
+		textTransform: "uppercase",
+		letterSpacing: 1,
 		textAlign: "center",
 	},
 	subtitle: {
 		fontSize: 20,
-		color: "#000",
 		textAlign: "center",
+		textTransform: "lowercase",
 	},
+	container: {},
 });
