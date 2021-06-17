@@ -23,11 +23,18 @@ import Header from "./src/components/Header";
 // import Diferenciar from "./src/components/Diferenciar";
 import Familia from "./src/components/propsChildren/Familia";
 import Membro from "./src/components/propsChildren/Membro";
+import ParImpar from "./src/components/condicional/ParImpar";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
+			<ParImpar num={2} />
+			<ParImpar num={5} />
+			<ParImpar num={6} />
+			<ParImpar num={13} />
+
+			{/* <Login />
 			<Familia>
 				<Membro nome="Arthur" sobrenome="Ribeiro" />
 				<Membro nome="Melina" sobrenome="Ribeiro" />
@@ -36,7 +43,6 @@ export default () => {
 				<Membro nome="José" sobrenome="Ribeiro" />
 				<Membro nome="Maria" sobrenome="Ribeiro" />
 			</Familia>
-			{/* <Login />
 			<Diferenciar />
 			<Pai />
 			<RevisaoProps />
