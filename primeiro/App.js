@@ -20,14 +20,24 @@ import Header from "./src/components/Header";
 // import GridProdutos from "./src/components/GridProdutos/";
 // import RevisaoProps from "./src/components/revisaoProps";
 // import Pai from "./src/components/indireta/Pai";
-import Diferenciar from "./src/components/Diferenciar";
+// import Diferenciar from "./src/components/Diferenciar";
+import Familia from "./src/components/propsChildren/Familia";
+import Membro from "./src/components/propsChildren/Membro";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<Diferenciar />
+			<Familia>
+				<Membro nome="Arthur" sobrenome="Ribeiro" />
+				<Membro nome="Melina" sobrenome="Ribeiro" />
+			</Familia>
+			<Familia>
+				<Membro nome="José" sobrenome="Ribeiro" />
+				<Membro nome="Maria" sobrenome="Ribeiro" />
+			</Familia>
 			{/* <Login />
+			<Diferenciar />
 			<Pai />
 			<RevisaoProps />
 			<GridProdutos />
