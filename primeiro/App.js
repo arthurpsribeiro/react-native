@@ -24,17 +24,21 @@ import Header from "./src/components/Header";
 import Familia from "./src/components/propsChildren/Familia";
 import Membro from "./src/components/propsChildren/Membro";
 import ParImpar from "./src/components/condicional/ParImpar";
+import UsuarioLogado from "./src/components/condicional/UsuarioLogado";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
+			<UsuarioLogado usuario={{ nome: "Arthur ", email: "arthur@gmail.com" }} />
+			<UsuarioLogado usuario={null} />
+			<UsuarioLogado usuario={{ nome: "Arthur" }} />
+
+			{/* <Login />
 			<ParImpar num={2} />
 			<ParImpar num={5} />
 			<ParImpar num={6} />
 			<ParImpar num={13} />
-
-			{/* <Login />
 			<Familia>
 				<Membro nome="Arthur" sobrenome="Ribeiro" />
 				<Membro nome="Melina" sobrenome="Ribeiro" />
