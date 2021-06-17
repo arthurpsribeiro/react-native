@@ -19,14 +19,16 @@ import Header from "./src/components/Header";
 // import Pai from "./src/components/direta/Pai";
 // import GridProdutos from "./src/components/GridProdutos/";
 // import RevisaoProps from "./src/components/revisaoProps";
-import Pai from "./src/components/indireta/Pai";
+// import Pai from "./src/components/indireta/Pai";
+import Diferenciar from "./src/components/Diferenciar";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<Pai />
+			<Diferenciar />
 			{/* <Login />
+			<Pai />
 			<RevisaoProps />
 			<GridProdutos />
 			<Pai />
