@@ -18,14 +18,16 @@ import Header from "./src/components/Header";
 // import Contador from "./src/components/Contador";
 // import Pai from "./src/components/direta/Pai";
 import GridProdutos from "./src/components/GridProdutos/";
+import RevisaoProps from "./src/components/revisaoProps";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<GridProdutos />
+			<RevisaoProps />
 
 			{/* <Login />
+			<GridProdutos />
 			<Pai />
 			<Contador inicial={0} />
 			<Header />
