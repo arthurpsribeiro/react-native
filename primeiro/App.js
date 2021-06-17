@@ -17,16 +17,17 @@ import Header from "./src/components/Header";
 // import Login from "./src/screens/Login";
 // import Contador from "./src/components/Contador";
 // import Pai from "./src/components/direta/Pai";
-import GridProdutos from "./src/components/GridProdutos/";
-import RevisaoProps from "./src/components/revisaoProps";
+// import GridProdutos from "./src/components/GridProdutos/";
+// import RevisaoProps from "./src/components/revisaoProps";
+import Pai from "./src/components/indireta/Pai";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<RevisaoProps />
-
+			<Pai />
 			{/* <Login />
+			<RevisaoProps />
 			<GridProdutos />
 			<Pai />
 			<Contador inicial={0} />
@@ -47,14 +48,14 @@ export default () => {
 };
 
 const style = StyleSheet.create({
-	App: {
-		flex: 1,
-		backgroundColor: "#A00",
-	},
-	txtG: {
-		fontSize: 30,
-	},
-	txtBranco: {
-		color: "#fff",
-	},
+	// App: {
+	// 	flex: 1,
+	// 	backgroundColor: "#A00",
+	// },
+	// txtG: {
+	// 	fontSize: 30,
+	// },
+	// txtBranco: {
+	// 	color: "#fff",
+	// },
 });
