@@ -54,12 +54,12 @@ export default () => {
 			<View style={styles.container}>
 				<Text style={styles.titulo}>Exercício 08</Text>
 				<Familia>
-					<Membro nome="Arthur" sobrenom="Riberio" />
-					<Membro nome="Melina" sobrenom="Riberio" />
+					<Membro nome="Arthur " sobrenome="Riberio" />
+					<Membro nome="Melina " sobrenome="Riberio" />
 				</Familia>
 				<Familia>
-					<Membro nome="José" sobrenom="Riberio" />
-					<Membro nome="Maria" sobrenom="Riberio" />
+					<Membro nome="José " sobrenome="Riberio" />
+					<Membro nome="Maria " sobrenome="Riberio" />
 				</Familia>
 			</View>
 			<View style={styles.container}>
