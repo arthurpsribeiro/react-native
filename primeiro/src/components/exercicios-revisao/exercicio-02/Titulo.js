@@ -12,11 +12,11 @@ export default (props) => {
 
 const styles = StyleSheet.create({
 	titulo: {
-		fontSize: 16,
+		fontSize: 20,
 		fontWeight: "bold",
 	},
 	subtitulo: {
-		fontSize: 12,
+		fontSize: 16,
 		color: "#cecece",
 	},
 });

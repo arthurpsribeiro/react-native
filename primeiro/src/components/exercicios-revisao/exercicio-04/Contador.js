@@ -15,7 +15,7 @@ export default (props) => {
 	return (
 		<View style={styles.container}>
 			<Button title="-" onPress={decremento} />
-			<Text>{numero}</Text>
+			<Text style={styles.num}>{numero}</Text>
 			<Button title="+" onPress={incremento} />
 		</View>
 	);
@@ -23,9 +23,14 @@ export default (props) => {
 
 const styles = StyleSheet.create({
 	container: {
-		width: "20%",
+		// width: "20%",
 		flexDirection: "row",
 		alignItems: "center",
-		justifyContent: "space-between",
+		justifyContent: "center",
+	},
+	num: {
+		margin: 8,
+		fontWeight: "bold",
+		fontSize: 16,
 	},
 });
