@@ -26,16 +26,17 @@ import Header from "./src/components/Header";
 // import ParImpar from "./src/components/condicional/ParImpar";
 // import UsuarioLogado from "./src/components/condicional/UsuarioLogado";
 // import Salve from "./src/components/Salve";
-import ListaProdutos from "./src/components/Produtos/ListaProdutos";
-import ListaProdutos2 from "./src/components/Produtos/ListaProdutos2";
+// import ListaProdutos from "./src/components/Produtos/ListaProdutos";
+// import ListaProdutos2 from "./src/components/Produtos/ListaProdutos2";
+import DigiteSeuNome from "./src/components/DigiteSeuNome";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<ListaProdutos2 />
-
+			<DigiteSeuNome />
 			{/* <Login />
+			<ListaProdutos2 />
 			<Salve />
 			<UsuarioLogado usuario={{ nome: "Arthur ", email: "arthur@gmail.com" }} />
 			<UsuarioLogado usuario={null} />
