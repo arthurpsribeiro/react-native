@@ -31,14 +31,15 @@ import Header from "./src/components/Header";
 // import DigiteSeuNome from "./src/components/DigiteSeuNome";
 import IptText from "./src/components/IptText";
 import Login2 from "./src/screens/Login2";
+import Cadastro from "./src/screens/Cadastro";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<Login2 />
-
+			<Cadastro />
 			{/* <Login />
+			<Login2 />
 			<DigiteSeuNome />
 			<ListaProdutos2 />
 			<Salve />
