@@ -29,16 +29,18 @@ import Header from "./src/components/Header";
 // import ListaProdutos from "./src/components/Produtos/ListaProdutos";
 // import ListaProdutos2 from "./src/components/Produtos/ListaProdutos2";
 // import DigiteSeuNome from "./src/components/DigiteSeuNome";
-import IptText from "./src/components/IptText";
-import Login2 from "./src/screens/Login2";
-import Cadastro from "./src/screens/Cadastro";
+// import IptText from "./src/components/IptText";
+// import Login2 from "./src/screens/Login2";
+// import Cadastro from "./src/screens/Cadastro";
+import Checkout from "./src/screens/Checkout";
 
 export default () => {
 	return (
 		<SafeAreaView>
 			<Header />
-			<Cadastro />
+			<Checkout />
 			{/* <Login />
+			<Cadastro />
 			<Login2 />
 			<DigiteSeuNome />
 			<ListaProdutos2 />
